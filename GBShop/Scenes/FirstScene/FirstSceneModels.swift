@@ -10,11 +10,10 @@ enum FirstScene {
     enum InitForm {
         struct Request {}
         struct Response: Codable {
-            struct LoginResult: Codable {
                 let result: Int
                 let user: User
                 let authToken: String
-           }
+           
             struct User: Codable {
                 let idUser: Int
                 let userLogin, userName, userLastname: String
@@ -27,7 +26,14 @@ enum FirstScene {
                }
            }
         }
-        struct ViewModel {}
+        struct ViewModel {
+            let name : String
+            let lastname : String
+            init(param: FirstScene.InitForm.Response){
+                self.name = param.user.userName
+                self.lastname = param.user.userLastname
+            }
+        }
     }
 }
 

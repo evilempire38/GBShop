@@ -10,6 +10,7 @@ final class FirstScenePresenter: FirstScenePresentationLogic {
     weak var viewController: FirstSceneDisplayLogic?
 
     func presentInitForm(_ response: FirstScene.InitForm.Response) {
-        viewController?.displayInitForm(FirstScene.InitForm.ViewModel())
+        let viewModel = FirstScene.InitForm.ViewModel(param: response)
+        viewController?.displayInitForm(viewModel)
     }
 }

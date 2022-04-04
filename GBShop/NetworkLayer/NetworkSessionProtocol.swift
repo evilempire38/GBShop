@@ -22,12 +22,9 @@ extension NetworkSessionProtocol {
         let task = session.dataTask(with: endpoint) { data, response, error in
             if let data = data {
                 do {
-                    let json = try JSONSerialization.jsonObject(with: data, options: .fragmentsAllowed)
-                    print(json)
                     let myData = try JSONDecoder().decode(Success.self, from: data)
                     completion(.success(myData))
                 } catch {
-                    print(error.localizedDescription)
                     completion(.failure(.wrongDecoding))
                     return
                 }

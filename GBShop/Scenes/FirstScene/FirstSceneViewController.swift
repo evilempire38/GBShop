@@ -35,7 +35,7 @@ final class FirstSceneViewController: UIViewController, FirstSceneDisplayLogic {
     // MARK: - FirstSceneDisplayLogic
 
     func displayInitForm(_ viewModel: FirstScene.InitForm.ViewModel) {
-        
+        print("You just logged in with name \(viewModel.name) \(viewModel.lastname)")
     }
 
     // MARK: - Private
