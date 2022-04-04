@@ -18,9 +18,5 @@ final class FirstSceneRouter: FirstSceneRoutingLogic, FirstSceneDataPassing {
 }
 
 private extension FirstSceneRouter {
-//    func passDataTo_() {
-//        source: FirstSceneDataStore,
-//        destination: inout SomewhereDataStore
-//    ) {
-//    }
+
 }

@@ -16,7 +16,9 @@ protocol FirstSceneBusinessLogic {
     func requestInitForm(_ request: FirstScene.InitForm.Request)
 }
 
-protocol FirstSceneWorkerLogic {}
+protocol FirstSceneWorkerLogic {
+    func auth(_ request: FirstScene.InitForm.Request, username : String, password : String, completion: @escaping (Result<FirstScene.InitForm.Response, NetworkError>) -> Void)
+}
 
 protocol FirstScenePresentationLogic {
     func presentInitForm(_ response: FirstScene.InitForm.Response)

@@ -28,12 +28,15 @@ final class FirstSceneViewController: UIViewController, FirstSceneDisplayLogic {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .white
         initForm()
     }
 
     // MARK: - FirstSceneDisplayLogic
 
-    func displayInitForm(_ viewModel: FirstScene.InitForm.ViewModel) {}
+    func displayInitForm(_ viewModel: FirstScene.InitForm.ViewModel) {
+        
+    }
 
     // MARK: - Private
 

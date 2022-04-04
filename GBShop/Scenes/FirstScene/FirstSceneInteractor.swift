@@ -10,7 +10,7 @@ import Foundation
 final class FirstSceneInteractor: FirstSceneBusinessLogic, FirstSceneDataStore {
     private let presenter: FirstScenePresentationLogic
     private let worker: FirstSceneWorkerLogic
-
+    
     init(
         presenter: FirstScenePresentationLogic,
         worker: FirstSceneWorkerLogic
@@ -18,10 +18,15 @@ final class FirstSceneInteractor: FirstSceneBusinessLogic, FirstSceneDataStore {
         self.presenter = presenter
         self.worker = worker
     }
-
+    
     func requestInitForm(_ request: FirstScene.InitForm.Request) {
-        DispatchQueue.main.async {
-            self.presenter.presentInitForm(FirstScene.InitForm.Response())
+        worker.auth(request, username: "Somebody", password: "password") { [weak self] result in
+            DispatchQueue.main.async {
+                switch result {
+                case .success(let success): self?.presenter.presentInitForm(success)
+                case.failure(_): return
+                }
+            }
         }
     }
 }

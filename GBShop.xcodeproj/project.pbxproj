@@ -15,7 +15,8 @@
 		9A059C9227FB02CB00D6D050 /* FirstSceneProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A059C8A27FB02CB00D6D050 /* FirstSceneProtocols.swift */; };
 		9A059C9327FB02CB00D6D050 /* FirstSceneAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A059C8B27FB02CB00D6D050 /* FirstSceneAssembly.swift */; };
 		9A059C9427FB02CB00D6D050 /* FirstSceneInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A059C8C27FB02CB00D6D050 /* FirstSceneInteractor.swift */; };
-		9A059C9827FB03BE00D6D050 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A059C9727FB03BE00D6D050 /* NetworkManager.swift */; };
+		9A059C9827FB03BE00D6D050 /* NetworkSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A059C9727FB03BE00D6D050 /* NetworkSessionProtocol.swift */; };
+		9A059C9A27FB316300D6D050 /* EndpointTypeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A059C9927FB316300D6D050 /* EndpointTypeProtocol.swift */; };
 		9ACD576527D61D5F00558B31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACD576427D61D5F00558B31 /* AppDelegate.swift */; };
 		9ACD576727D61D5F00558B31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACD576627D61D5F00558B31 /* SceneDelegate.swift */; };
 		9ACD576E27D61D6100558B31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ACD576D27D61D6100558B31 /* Assets.xcassets */; };
@@ -30,7 +31,8 @@
 		9A059C8A27FB02CB00D6D050 /* FirstSceneProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSceneProtocols.swift; sourceTree = "<group>"; };
 		9A059C8B27FB02CB00D6D050 /* FirstSceneAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSceneAssembly.swift; sourceTree = "<group>"; };
 		9A059C8C27FB02CB00D6D050 /* FirstSceneInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSceneInteractor.swift; sourceTree = "<group>"; };
-		9A059C9727FB03BE00D6D050 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		9A059C9727FB03BE00D6D050 /* NetworkSessionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSessionProtocol.swift; sourceTree = "<group>"; };
+		9A059C9927FB316300D6D050 /* EndpointTypeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointTypeProtocol.swift; sourceTree = "<group>"; };
 		9ACD576127D61D5F00558B31 /* GBShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GBShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ACD576427D61D5F00558B31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9ACD576627D61D5F00558B31 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,7 +87,8 @@
 		9A059C9627FB03A700D6D050 /* NetworkLayer */ = {
 			isa = PBXGroup;
 			children = (
-				9A059C9727FB03BE00D6D050 /* NetworkManager.swift */,
+				9A059C9727FB03BE00D6D050 /* NetworkSessionProtocol.swift */,
+				9A059C9927FB316300D6D050 /* EndpointTypeProtocol.swift */,
 			);
 			path = NetworkLayer;
 			sourceTree = "<group>";
@@ -109,9 +112,9 @@
 		9ACD576327D61D5F00558B31 /* GBShop */ = {
 			isa = PBXGroup;
 			children = (
+				9A059C8327FB01FB00D6D050 /* Scenes */,
 				9A059C9627FB03A700D6D050 /* NetworkLayer */,
 				9A059C8427FB020900D6D050 /* SubFiles */,
-				9A059C8327FB01FB00D6D050 /* Scenes */,
 				9ACD577227D61D6100558B31 /* Info.plist */,
 			);
 			path = GBShop;
@@ -188,9 +191,10 @@
 			files = (
 				9ACD576527D61D5F00558B31 /* AppDelegate.swift in Sources */,
 				9A059C9127FB02CB00D6D050 /* FirstSceneViewController.swift in Sources */,
+				9A059C9A27FB316300D6D050 /* EndpointTypeProtocol.swift in Sources */,
 				9A059C9027FB02CB00D6D050 /* FirstSceneModels.swift in Sources */,
 				9A059C9327FB02CB00D6D050 /* FirstSceneAssembly.swift in Sources */,
-				9A059C9827FB03BE00D6D050 /* NetworkManager.swift in Sources */,
+				9A059C9827FB03BE00D6D050 /* NetworkSessionProtocol.swift in Sources */,
 				9A059C9427FB02CB00D6D050 /* FirstSceneInteractor.swift in Sources */,
 				9A059C8E27FB02CB00D6D050 /* FirstSceneWorker.swift in Sources */,
 				9A059C8D27FB02CB00D6D050 /* FirstScenePresenter.swift in Sources */,
