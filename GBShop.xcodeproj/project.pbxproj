@@ -17,10 +17,21 @@
 		9A059C9427FB02CB00D6D050 /* FirstSceneInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A059C8C27FB02CB00D6D050 /* FirstSceneInteractor.swift */; };
 		9A059C9827FB03BE00D6D050 /* NetworkSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A059C9727FB03BE00D6D050 /* NetworkSessionProtocol.swift */; };
 		9A059C9A27FB316300D6D050 /* EndpointTypeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A059C9927FB316300D6D050 /* EndpointTypeProtocol.swift */; };
+		9A7289F32800142B000908E6 /* GBShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7289F22800142B000908E6 /* GBShopTests.swift */; };
 		9ACD576527D61D5F00558B31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACD576427D61D5F00558B31 /* AppDelegate.swift */; };
 		9ACD576727D61D5F00558B31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACD576627D61D5F00558B31 /* SceneDelegate.swift */; };
 		9ACD576E27D61D6100558B31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ACD576D27D61D6100558B31 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A7289F42800142B000908E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9ACD575927D61D5F00558B31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ACD576027D61D5F00558B31;
+			remoteInfo = GBShop;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		9A059C8527FB02CB00D6D050 /* FirstScenePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScenePresenter.swift; sourceTree = "<group>"; };
@@ -33,6 +44,8 @@
 		9A059C8C27FB02CB00D6D050 /* FirstSceneInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSceneInteractor.swift; sourceTree = "<group>"; };
 		9A059C9727FB03BE00D6D050 /* NetworkSessionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSessionProtocol.swift; sourceTree = "<group>"; };
 		9A059C9927FB316300D6D050 /* EndpointTypeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointTypeProtocol.swift; sourceTree = "<group>"; };
+		9A7289F02800142B000908E6 /* GBShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GBShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A7289F22800142B000908E6 /* GBShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBShopTests.swift; sourceTree = "<group>"; };
 		9ACD576127D61D5F00558B31 /* GBShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GBShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ACD576427D61D5F00558B31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9ACD576627D61D5F00558B31 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +54,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9A7289ED2800142B000908E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9ACD575E27D61D5F00558B31 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -93,10 +113,19 @@
 			path = NetworkLayer;
 			sourceTree = "<group>";
 		};
+		9A7289F12800142B000908E6 /* GBShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A7289F22800142B000908E6 /* GBShopTests.swift */,
+			);
+			path = GBShopTests;
+			sourceTree = "<group>";
+		};
 		9ACD575827D61D5F00558B31 = {
 			isa = PBXGroup;
 			children = (
 				9ACD576327D61D5F00558B31 /* GBShop */,
+				9A7289F12800142B000908E6 /* GBShopTests */,
 				9ACD576227D61D5F00558B31 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				9ACD576127D61D5F00558B31 /* GBShop.app */,
+				9A7289F02800142B000908E6 /* GBShopTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,6 +153,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9A7289EF2800142B000908E6 /* GBShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A7289F62800142B000908E6 /* Build configuration list for PBXNativeTarget "GBShopTests" */;
+			buildPhases = (
+				9A7289EC2800142B000908E6 /* Sources */,
+				9A7289ED2800142B000908E6 /* Frameworks */,
+				9A7289EE2800142B000908E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A7289F52800142B000908E6 /* PBXTargetDependency */,
+			);
+			name = GBShopTests;
+			productName = GBShopTests;
+			productReference = 9A7289F02800142B000908E6 /* GBShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		9ACD576027D61D5F00558B31 /* GBShop */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9ACD577527D61D6100558B31 /* Build configuration list for PBXNativeTarget "GBShop" */;
@@ -150,6 +198,10 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					9A7289EF2800142B000908E6 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 9ACD576027D61D5F00558B31;
+					};
 					9ACD576027D61D5F00558B31 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -169,11 +221,19 @@
 			projectRoot = "";
 			targets = (
 				9ACD576027D61D5F00558B31 /* GBShop */,
+				9A7289EF2800142B000908E6 /* GBShopTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9A7289EE2800142B000908E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9ACD575F27D61D5F00558B31 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -185,6 +245,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9A7289EC2800142B000908E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A7289F32800142B000908E6 /* GBShopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9ACD575D27D61D5F00558B31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -206,7 +274,51 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		9A7289F52800142B000908E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9ACD576027D61D5F00558B31 /* GBShop */;
+			targetProxy = 9A7289F42800142B000908E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		9A7289F72800142B000908E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 577HJL96V9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nilProduction.GBShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GBShop.app/GBShop";
+			};
+			name = Debug;
+		};
+		9A7289F82800142B000908E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 577HJL96V9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nilProduction.GBShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GBShop.app/GBShop";
+			};
+			name = Release;
+		};
 		9ACD577327D61D6100558B31 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -328,11 +440,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 577HJL96V9;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GBShop/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GBShop;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -344,9 +458,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nilProduction.GBShop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -355,11 +470,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 577HJL96V9;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GBShop/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GBShop;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -371,15 +488,25 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = nilProduction.GBShop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9A7289F62800142B000908E6 /* Build configuration list for PBXNativeTarget "GBShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A7289F72800142B000908E6 /* Debug */,
+				9A7289F82800142B000908E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9ACD575C27D61D5F00558B31 /* Build configuration list for PBXProject "GBShop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
