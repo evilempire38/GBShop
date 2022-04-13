@@ -18,9 +18,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let tabBar = UITabBarController()
         let viewController = FirstSceneAssembly.build()
         let goodVC = GoodsSceneAssembly.build()
+        let feedbacksVC = FeedbacksSceneAssembly.build()
         viewController.title = "Auth"
         goodVC.title = "GoodsVC"
-        tabBar.setViewControllers([viewController, goodVC], animated: true)
+        tabBar.setViewControllers([viewController, goodVC, feedbacksVC], animated: true)
         guard let items = tabBar.tabBar.items else { return }
         for x in 0..<items.count {
             items[x].image = UIImage(systemName: "gear")
