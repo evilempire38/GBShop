@@ -10,7 +10,7 @@ import XCTest
 @testable import GBShop
 
 final class ResponseTests : XCTestCase {
-    
+    //some mock will be here
 }
 
 

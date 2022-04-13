@@ -8,6 +8,7 @@
 import Foundation
 
 final class FirstSceneWorker: FirstSceneWorkerLogic, NetworkSessionProtocol {
+    
     func auth(_ request: FirstScene.InitForm.Request,
               username: String,
               password: String,
