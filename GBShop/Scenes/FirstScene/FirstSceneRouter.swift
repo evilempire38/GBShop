@@ -11,7 +11,6 @@ import UIKit
 final class FirstSceneRouter: FirstSceneRoutingLogic, FirstSceneDataPassing {
     weak var viewController: UIViewController?
     let dataStore: FirstSceneDataStore
-
     init(dataStore: FirstSceneDataStore) {
         self.dataStore = dataStore
     }
