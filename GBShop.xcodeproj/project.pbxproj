@@ -17,11 +17,27 @@
 		9A059C9427FB02CB00D6D050 /* FirstSceneInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A059C8C27FB02CB00D6D050 /* FirstSceneInteractor.swift */; };
 		9A059C9827FB03BE00D6D050 /* NetworkSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A059C9727FB03BE00D6D050 /* NetworkSessionProtocol.swift */; };
 		9A059C9A27FB316300D6D050 /* EndpointTypeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A059C9927FB316300D6D050 /* EndpointTypeProtocol.swift */; };
+		9A62062C2806C7300000D9B0 /* GoodsScenePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6206242806C7300000D9B0 /* GoodsScenePresenter.swift */; };
+		9A62062D2806C7300000D9B0 /* GoodsSceneWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6206252806C7300000D9B0 /* GoodsSceneWorker.swift */; };
+		9A62062E2806C7300000D9B0 /* GoodsSceneRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6206262806C7300000D9B0 /* GoodsSceneRouter.swift */; };
+		9A62062F2806C7300000D9B0 /* GoodsSceneModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6206272806C7300000D9B0 /* GoodsSceneModels.swift */; };
+		9A6206302806C7300000D9B0 /* GoodsSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6206282806C7300000D9B0 /* GoodsSceneViewController.swift */; };
+		9A6206312806C7300000D9B0 /* GoodsSceneProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6206292806C7300000D9B0 /* GoodsSceneProtocols.swift */; };
+		9A6206322806C7300000D9B0 /* GoodsSceneAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A62062A2806C7300000D9B0 /* GoodsSceneAssembly.swift */; };
+		9A6206332806C7300000D9B0 /* GoodsSceneInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A62062B2806C7300000D9B0 /* GoodsSceneInteractor.swift */; };
 		9A7289F32800142B000908E6 /* GBShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7289F22800142B000908E6 /* GBShopTests.swift */; };
 		9A7289FB28001603000908E6 /* PresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7289FA28001603000908E6 /* PresenterTests.swift */; };
 		9A7289FD2800168A000908E6 /* FirstSceneVCMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7289FC2800168A000908E6 /* FirstSceneVCMock.swift */; };
 		9A7289FF28001A71000908E6 /* ResponseMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7289FE28001A71000908E6 /* ResponseMock.swift */; };
 		9A728A0128001AEF000908E6 /* ResponseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A728A0028001AEF000908E6 /* ResponseTests.swift */; };
+		9AC8E0A62806E33D00210D40 /* FeedbacksScenePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC8E09E2806E33D00210D40 /* FeedbacksScenePresenter.swift */; };
+		9AC8E0A72806E33D00210D40 /* FeedbacksSceneWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC8E09F2806E33D00210D40 /* FeedbacksSceneWorker.swift */; };
+		9AC8E0A82806E33D00210D40 /* FeedbacksSceneRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC8E0A02806E33D00210D40 /* FeedbacksSceneRouter.swift */; };
+		9AC8E0A92806E33D00210D40 /* FeedbacksSceneModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC8E0A12806E33D00210D40 /* FeedbacksSceneModels.swift */; };
+		9AC8E0AA2806E33D00210D40 /* FeedbacksSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC8E0A22806E33D00210D40 /* FeedbacksSceneViewController.swift */; };
+		9AC8E0AB2806E33D00210D40 /* FeedbacksSceneProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC8E0A32806E33D00210D40 /* FeedbacksSceneProtocols.swift */; };
+		9AC8E0AC2806E33D00210D40 /* FeedbacksSceneAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC8E0A42806E33D00210D40 /* FeedbacksSceneAssembly.swift */; };
+		9AC8E0AD2806E33D00210D40 /* FeedbacksSceneInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC8E0A52806E33D00210D40 /* FeedbacksSceneInteractor.swift */; };
 		9ACD576527D61D5F00558B31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACD576427D61D5F00558B31 /* AppDelegate.swift */; };
 		9ACD576727D61D5F00558B31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACD576627D61D5F00558B31 /* SceneDelegate.swift */; };
 		9ACD576E27D61D6100558B31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ACD576D27D61D6100558B31 /* Assets.xcassets */; };
@@ -48,12 +64,28 @@
 		9A059C8C27FB02CB00D6D050 /* FirstSceneInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSceneInteractor.swift; sourceTree = "<group>"; };
 		9A059C9727FB03BE00D6D050 /* NetworkSessionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSessionProtocol.swift; sourceTree = "<group>"; };
 		9A059C9927FB316300D6D050 /* EndpointTypeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointTypeProtocol.swift; sourceTree = "<group>"; };
+		9A6206242806C7300000D9B0 /* GoodsScenePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodsScenePresenter.swift; sourceTree = "<group>"; };
+		9A6206252806C7300000D9B0 /* GoodsSceneWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodsSceneWorker.swift; sourceTree = "<group>"; };
+		9A6206262806C7300000D9B0 /* GoodsSceneRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodsSceneRouter.swift; sourceTree = "<group>"; };
+		9A6206272806C7300000D9B0 /* GoodsSceneModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodsSceneModels.swift; sourceTree = "<group>"; };
+		9A6206282806C7300000D9B0 /* GoodsSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodsSceneViewController.swift; sourceTree = "<group>"; };
+		9A6206292806C7300000D9B0 /* GoodsSceneProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodsSceneProtocols.swift; sourceTree = "<group>"; };
+		9A62062A2806C7300000D9B0 /* GoodsSceneAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodsSceneAssembly.swift; sourceTree = "<group>"; };
+		9A62062B2806C7300000D9B0 /* GoodsSceneInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodsSceneInteractor.swift; sourceTree = "<group>"; };
 		9A7289F02800142B000908E6 /* GBShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GBShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A7289F22800142B000908E6 /* GBShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBShopTests.swift; sourceTree = "<group>"; };
 		9A7289FA28001603000908E6 /* PresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterTests.swift; sourceTree = "<group>"; };
 		9A7289FC2800168A000908E6 /* FirstSceneVCMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstSceneVCMock.swift; sourceTree = "<group>"; };
 		9A7289FE28001A71000908E6 /* ResponseMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseMock.swift; sourceTree = "<group>"; };
 		9A728A0028001AEF000908E6 /* ResponseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseTests.swift; sourceTree = "<group>"; };
+		9AC8E09E2806E33D00210D40 /* FeedbacksScenePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbacksScenePresenter.swift; sourceTree = "<group>"; };
+		9AC8E09F2806E33D00210D40 /* FeedbacksSceneWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbacksSceneWorker.swift; sourceTree = "<group>"; };
+		9AC8E0A02806E33D00210D40 /* FeedbacksSceneRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbacksSceneRouter.swift; sourceTree = "<group>"; };
+		9AC8E0A12806E33D00210D40 /* FeedbacksSceneModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbacksSceneModels.swift; sourceTree = "<group>"; };
+		9AC8E0A22806E33D00210D40 /* FeedbacksSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbacksSceneViewController.swift; sourceTree = "<group>"; };
+		9AC8E0A32806E33D00210D40 /* FeedbacksSceneProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbacksSceneProtocols.swift; sourceTree = "<group>"; };
+		9AC8E0A42806E33D00210D40 /* FeedbacksSceneAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbacksSceneAssembly.swift; sourceTree = "<group>"; };
+		9AC8E0A52806E33D00210D40 /* FeedbacksSceneInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbacksSceneInteractor.swift; sourceTree = "<group>"; };
 		9ACD576127D61D5F00558B31 /* GBShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GBShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ACD576427D61D5F00558B31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9ACD576627D61D5F00558B31 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,7 +114,9 @@
 		9A059C8327FB01FB00D6D050 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				9A059C9527FB038C00D6D050 /* FirstScene */,
+				9AC8E0AE2806E34C00210D40 /* FeedbacksScene */,
+				9A64B9D12806C63700ADC83F /* GoodsScene */,
+				9A059C9527FB038C00D6D050 /* AuthScene */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -97,7 +131,7 @@
 			path = SubFiles;
 			sourceTree = "<group>";
 		};
-		9A059C9527FB038C00D6D050 /* FirstScene */ = {
+		9A059C9527FB038C00D6D050 /* AuthScene */ = {
 			isa = PBXGroup;
 			children = (
 				9A059C8527FB02CB00D6D050 /* FirstScenePresenter.swift */,
@@ -109,7 +143,7 @@
 				9A059C8B27FB02CB00D6D050 /* FirstSceneAssembly.swift */,
 				9A059C8C27FB02CB00D6D050 /* FirstSceneInteractor.swift */,
 			);
-			path = FirstScene;
+			path = AuthScene;
 			sourceTree = "<group>";
 		};
 		9A059C9627FB03A700D6D050 /* NetworkLayer */ = {
@@ -119,6 +153,21 @@
 				9A059C9927FB316300D6D050 /* EndpointTypeProtocol.swift */,
 			);
 			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		9A64B9D12806C63700ADC83F /* GoodsScene */ = {
+			isa = PBXGroup;
+			children = (
+				9A6206242806C7300000D9B0 /* GoodsScenePresenter.swift */,
+				9A6206252806C7300000D9B0 /* GoodsSceneWorker.swift */,
+				9A6206262806C7300000D9B0 /* GoodsSceneRouter.swift */,
+				9A6206272806C7300000D9B0 /* GoodsSceneModels.swift */,
+				9A6206282806C7300000D9B0 /* GoodsSceneViewController.swift */,
+				9A6206292806C7300000D9B0 /* GoodsSceneProtocols.swift */,
+				9A62062A2806C7300000D9B0 /* GoodsSceneAssembly.swift */,
+				9A62062B2806C7300000D9B0 /* GoodsSceneInteractor.swift */,
+			);
+			path = GoodsScene;
 			sourceTree = "<group>";
 		};
 		9A7289F12800142B000908E6 /* GBShopTests */ = {
@@ -139,6 +188,21 @@
 				9A7289FE28001A71000908E6 /* ResponseMock.swift */,
 			);
 			path = Mocks;
+			sourceTree = "<group>";
+		};
+		9AC8E0AE2806E34C00210D40 /* FeedbacksScene */ = {
+			isa = PBXGroup;
+			children = (
+				9AC8E09E2806E33D00210D40 /* FeedbacksScenePresenter.swift */,
+				9AC8E09F2806E33D00210D40 /* FeedbacksSceneWorker.swift */,
+				9AC8E0A02806E33D00210D40 /* FeedbacksSceneRouter.swift */,
+				9AC8E0A12806E33D00210D40 /* FeedbacksSceneModels.swift */,
+				9AC8E0A22806E33D00210D40 /* FeedbacksSceneViewController.swift */,
+				9AC8E0A32806E33D00210D40 /* FeedbacksSceneProtocols.swift */,
+				9AC8E0A42806E33D00210D40 /* FeedbacksSceneAssembly.swift */,
+				9AC8E0A52806E33D00210D40 /* FeedbacksSceneInteractor.swift */,
+			);
+			path = FeedbacksScene;
 			sourceTree = "<group>";
 		};
 		9ACD575827D61D5F00558B31 = {
@@ -282,17 +346,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				9ACD576527D61D5F00558B31 /* AppDelegate.swift in Sources */,
+				9A6206322806C7300000D9B0 /* GoodsSceneAssembly.swift in Sources */,
 				9A059C9127FB02CB00D6D050 /* FirstSceneViewController.swift in Sources */,
 				9A059C9A27FB316300D6D050 /* EndpointTypeProtocol.swift in Sources */,
 				9A059C9027FB02CB00D6D050 /* FirstSceneModels.swift in Sources */,
+				9A6206302806C7300000D9B0 /* GoodsSceneViewController.swift in Sources */,
+				9AC8E0AD2806E33D00210D40 /* FeedbacksSceneInteractor.swift in Sources */,
 				9A059C9327FB02CB00D6D050 /* FirstSceneAssembly.swift in Sources */,
 				9A059C9827FB03BE00D6D050 /* NetworkSessionProtocol.swift in Sources */,
+				9A6206312806C7300000D9B0 /* GoodsSceneProtocols.swift in Sources */,
 				9A059C9427FB02CB00D6D050 /* FirstSceneInteractor.swift in Sources */,
+				9A62062D2806C7300000D9B0 /* GoodsSceneWorker.swift in Sources */,
+				9A62062C2806C7300000D9B0 /* GoodsScenePresenter.swift in Sources */,
+				9A62062E2806C7300000D9B0 /* GoodsSceneRouter.swift in Sources */,
 				9A059C8E27FB02CB00D6D050 /* FirstSceneWorker.swift in Sources */,
 				9A059C8D27FB02CB00D6D050 /* FirstScenePresenter.swift in Sources */,
 				9ACD576727D61D5F00558B31 /* SceneDelegate.swift in Sources */,
 				9A059C8F27FB02CB00D6D050 /* FirstSceneRouter.swift in Sources */,
+				9AC8E0A62806E33D00210D40 /* FeedbacksScenePresenter.swift in Sources */,
 				9A059C9227FB02CB00D6D050 /* FirstSceneProtocols.swift in Sources */,
+				9A6206332806C7300000D9B0 /* GoodsSceneInteractor.swift in Sources */,
+				9A62062F2806C7300000D9B0 /* GoodsSceneModels.swift in Sources */,
+				9AC8E0AC2806E33D00210D40 /* FeedbacksSceneAssembly.swift in Sources */,
+				9AC8E0AB2806E33D00210D40 /* FeedbacksSceneProtocols.swift in Sources */,
+				9AC8E0AA2806E33D00210D40 /* FeedbacksSceneViewController.swift in Sources */,
+				9AC8E0A82806E33D00210D40 /* FeedbacksSceneRouter.swift in Sources */,
+				9AC8E0A72806E33D00210D40 /* FeedbacksSceneWorker.swift in Sources */,
+				9AC8E0A92806E33D00210D40 /* FeedbacksSceneModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

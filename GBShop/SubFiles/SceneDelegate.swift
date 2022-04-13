@@ -15,10 +15,18 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let scene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: scene)
-        let navigationVC = UINavigationController()
+        let tabBar = UITabBarController()
         let viewController = FirstSceneAssembly.build()
-        navigationVC.viewControllers = [viewController]
-        window?.rootViewController = navigationVC
+        let goodVC = GoodsSceneAssembly.build()
+        let feedbacksVC = FeedbacksSceneAssembly.build()
+        viewController.title = "Auth"
+        goodVC.title = "GoodsVC"
+        tabBar.setViewControllers([viewController, goodVC, feedbacksVC], animated: true)
+        guard let items = tabBar.tabBar.items else { return }
+        for x in 0..<items.count {
+            items[x].image = UIImage(systemName: "gear")
+        }
+        window?.rootViewController = tabBar
         window?.makeKeyAndVisible()
     }
 
